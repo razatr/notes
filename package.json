@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
+    "@emotion/style": "^0.8.0",
     "@emotion/styled": "^11.8.1",
     "@mui/icons-material": "^5.6.0",
     "@mui/material": "^5.6.0",
@@ -39,19 +40,6 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "additional-rule": "warn"
-    },
-    "overrides": [
-      {
-        "files": [
-          "**/*.ts?(x)"
-        ],
-        "rules": {
-          "additional-typescript-only-rule": "warn"
-        }
-      }
     ]
   },
   "browserslist": {
