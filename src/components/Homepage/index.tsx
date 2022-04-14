@@ -8,7 +8,7 @@ export interface HomepageProps {
 
 const Homepage = () => {
   return (
-    <div >
+    <div>
       <Header />
       <NoteList />
       <AddButton />
